@@ -5,7 +5,7 @@
     <link rel="shortcut icon" href="/sources/img/img_general/logo_con_fondo.png" />
     <link rel="stylesheet" href="../css/css_index/slider.css">
     <link rel="stylesheet" href="../css/css_index/index.css">
-    <link rel="stylesheet" href="../css/css_index/campus-section.css">
+    <link rel="stylesheet" href="../css/css_index/noticias_previas.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Inicio | Cetis 104 </title>
 </head>
@@ -93,7 +93,62 @@
                 </div>
             </div>
         </div>
-    
+
+        <div class="news-container-custom">
+            <h1>Noticias</h1>
+            <div class="news-grid-custom">
+                <div class="news-item-custom" onclick="toggleNews(this)" data-url="./pages/Eventos-noticias.html">
+                    <div class="short-desc-custom">
+                        <p>Título de la Noticia 1</p>
+                        <p>Descripción corta de la noticia.</p>
+                    </div>
+                    <div class="full-news-custom">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quia! Molestias temporibus repellat obcaecati harum neque odit, minima, recusandae, modi nostrum voluptate tempora. Officia, adipisci iure laboriosam explicabo nulla et.</p>
+                    </div>
+                    <!-- Botón Learn More -->
+                    <button class="learn-more" data-url="/pages/Eventos-noticias.html">
+                        <span aria-hidden="true" class="circle">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"> Leer más </span>
+                    </button>
+                </div>
+        
+                <div class="news-item-custom" onclick="toggleNews(this)" data-url="./pages/Eventos-noticias.html">
+                    <div class="short-desc-custom">
+                        <p>Título de la Noticia 2</p>
+                        <p>Descripción corta de la noticia.</p>
+                    </div>
+                    <div class="full-news-custom">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, neque numquam libero beatae ullam placeat nisi animi quia voluptate quo deleniti culpa odio totam tenetur ducimus nulla! Illum, id libero?</p>
+                    </div>
+                    <!-- Botón Learn More -->
+                    <button class="learn-more">
+                        <span aria-hidden="true" class="circle">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"> Leer más </span>
+                    </button>
+                </div>
+        
+                <div class="news-item-custom" onclick="toggleNews(this)" data-url="./pages/Eventos-noticias.html">
+                    <div class="short-desc-custom">
+                        <p>Título de la Noticia 3</p>
+                        <p>Descripción corta de la noticia.</p>
+                    </div>
+                    <div class="full-news-custom">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus vel enim mollitia reprehenderit porro maiores eaque non, ipsum quia ea voluptatibus, minus fuga similique distinctio possimus laboriosam consequatur voluptas eligendi.</p>
+                    </div>
+                    <!-- Botón Learn More -->
+                    <button class="learn-more">
+                        <span aria-hidden="true" class="circle">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"> Leer más </span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer agregado con js NT.Para modificar el header solo modificar el archivo "plantilla/footer.html" -->
@@ -104,8 +159,7 @@
 
     <!-- js -->
     <script src="./js/js_general/agg-plantillas-index.js"></script>
-    <script src="./js/js_index/dot-lateral.js"></script>
     <script src="./js/js_index/seccion1.js"></script>
-    <script src="./js/js_index/campus-section.js"></script>
+    <script src="./js/js_index/noticias_previas.js"></script>
 </body>
 </html>
