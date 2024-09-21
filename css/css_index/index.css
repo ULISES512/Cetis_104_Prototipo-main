@@ -25,13 +25,13 @@
 }
 
 .slide1 {
-    background-image: url('/img/img_index/img1.jpg');
+    background-image: url('/sources/img/img_index/img1.jpg');
 }
 .slide2 {
-    background-image: url('/img/img_index/img2.jpg');
+    background-image: url('/sources/img/img_index/img2.jpg');
 }
 .slide3 {
-    background-image: url('/img/img_index/img3.jpg');
+    background-image: url('/sources/img/img_index/img3.jpg');
 }
 
 /* Cuando el slide está activo y se muestra */
