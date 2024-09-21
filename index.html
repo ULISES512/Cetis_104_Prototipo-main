@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../img/img_general/logo_con_fondo.png" />
+    <link rel="stylesheet" href="../css/css_index/slider.css">
+    <link rel="stylesheet" href="../css/css_index/index.css">
+    <link rel="stylesheet" href="../css/css_index/campus-section.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./sources/img/img_general/logo_sin_fondo.png">
+    <title> Inicio | Cetis 104 </title>
+</head>
+<body>
+
+    <!-- header agregado con js NT.Para modificar el header solo modificar el archivo "plantilla/header.html" -->
+    <div id="header"></div>
+
+
+    <div tabindex="0" class="content" onfocus="closeSidebar()" id="content">
+        <!-- todo el contenido -->
+        <header class="carril">
+            <div class="carousel">
+                <div class="slide slide1 active">
+                    <div class="overlay">
+                        <h1 class="letra-slider"> Admisiones </h1>
+                        <a href="#" class="btn">CONOCE MÁS ></a>
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="overlay">
+                        <h1 class="letra-slider"> Oferta educativa </h1>
+                        <a href="#" class="btn">CONOCE MÁS ></a>
+                    </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="overlay">
+                        <h1 class="letra-slider"> Admisiones y Becas </h1>
+                        <a href="#" class="btn">CONOCE MÁS ></a>
+                    </div>
+                </div>
+                <!-- Agrega más slides aquí -->
+                
+                <!-- Botones de navegación -->
+                <div class="nav-buttons">
+                    <button id="prevBtn">&#10094;</button>
+                    <button id="nextBtn">&#10095;</button>
+                </div>
+                
+                <!-- Indicadores de posición -->
+                <div class="indicators">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <!-- Agrega más indicadores según el número de slides -->
+                </div>
+            </div>
+        </header>
+
+        <div class="grid-container-secciones">
+            <div class="tarjeta-seccion">
+                <div class="capa-azul"></div>
+                <img src="./sources/img/img_index/cetis 104 - img2.jpg" alt="Imagen 1 bloques" class="imagen-tarjeta">
+                <div class="texto-superpuesto">
+                    <span> Historia del CEtis. 104 </span>
+                    <div class="pestana-azul">
+                        <a href="/historia.html" class="flecha-enlace">
+                            <div class="flecha"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta-seccion">
+                <div class="capa-azul"></div>
+                <img src="/img/img_index/cetis 104 - img3.jpg" alt="Imagen 2 bloques" class="imagen-tarjeta">
+                <div class="texto-superpuesto">
+                    <span>Profesores</span>
+                    <div class="pestana-azul">
+                        <a href="https://example.com/profesores" class="flecha-enlace">
+                            <div class="flecha"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta-seccion">
+                <div class="capa-azul"></div>
+                <img src="./sources/img/img_index/cetis 104.jpg" alt="Imagen 3 bloques" class="imagen-tarjeta">
+                <div class="texto-superpuesto">
+                    <span> Plantel </span>
+                    <div class="pestana-azul">
+                        <a href="https://example.com/ruta-azul" class="flecha-enlace">
+                            <div class="flecha"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <!-- footer agregado con js NT.Para modificar el header solo modificar el archivo "plantilla/footer.html" -->
+    <div id="footer" class="footer" onfocus="closeSidebar()"></div>
+
+    <!-- dino cetis "plantilla/dino_redes.html" -->
+    <div id="dino_cetis" class="dino_cetis" onfocus="closeSidebar()"></div>
+
+    <!-- js -->
+    <script src="./js/js_general/agg-plantillas.js"></script>
+    <script src="./js/js_index/dot-lateral.js"></script>
+    <script src="./js/js_index/seccion1.js"></script>
+    <script src="./js/js_index/campus-section.js"></script>
+</body>
+</html>
