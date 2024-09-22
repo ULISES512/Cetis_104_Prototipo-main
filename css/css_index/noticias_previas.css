@@ -1,14 +1,29 @@
 .news-container-custom {
+    padding-top: 10vh;
     width: 80%;
     margin: 0 auto;
-    text-align: center;
 }
 
 h1 {
-    margin-bottom: 20px;
+    left: 0;
+    margin-bottom: 10px;
+    font-size: 4vh;
+}
+
+.titulo-card-news {
+  font-weight: 800;
+}
+
+.news-image {
+  align-items: center;
+  width: 80%;
+border-radius: 10px;
+  height: auto;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .news-grid-custom {
+    text-align: center;
     display: flex;
     justify-content: space-between;
 }
@@ -189,5 +204,9 @@ button.learn-more {
     .news-item-custom {
         width: 100%; /* Hace que las tarjetas ocupen todo el ancho */
         margin-bottom: 20px; /* Agrega un espacio entre las tarjetas */
+    }
+
+    button.learn-more .button-text {
+      font-size: 10;
     }
 }

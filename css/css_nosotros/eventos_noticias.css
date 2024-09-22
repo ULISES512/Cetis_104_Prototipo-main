@@ -1,0 +1,96 @@
+.ctc-header-title {
+    font-family: 'Georgia', serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #f4f4f4;
+}
+
+header.ctc-header {
+    background-color: #444;
+    color: white;
+    height: 15vh;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.ribbon{
+    position: relative;
+    rotate: 100grad;
+	width: 0px;
+    height: 100px;
+    border-left: 50px solid rgba(0, 0, 0, 0.4); /* Capa color vino semitransparente */
+    border-right: 50px solid rgba(0, 0, 0, 0.4); /* Capa color vino semitransparente */
+    border-bottom: 35px solid transparent;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-100%); /* Mueve el div hacia arriba */
+}
+
+.ctc-container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.ctc-main-content {
+    flex: 3;
+    padding: 20px;
+}
+
+.ctc-news-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ctc-news-text {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.ctc-news-image {
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.ctc-news-list {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    overflow-y: auto;
+    height: calc(100vh - 40px); /* Para que acompañe al usuario */
+    position: sticky;
+    top: 60px;
+}
+
+.ctc-news-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #555;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ctc-news-item:hover {
+    background-color: #777;
+}
+
+.ctc-news-item-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.ctc-news-item-desc {
+    font-size: 14px;
+    color: #ccc;
+}
