@@ -2,12 +2,11 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="sources/img/img_general/logo_con_fondo.png" />
-    <link rel="stylesheet" href="css/css_index/slider.css">
-    <link rel="stylesheet" href="css/css_index/index.css">
-    <link rel="stylesheet" href="css/css_index/campus-section.css">
+    <link rel="shortcut icon" href="/sources/img/img_general/logo_con_fondo.png" />
+    <link rel="stylesheet" href="../css/css_index/slider.css">
+    <link rel="stylesheet" href="../css/css_index/index.css">
+    <link rel="stylesheet" href="../css/css_index/noticias_previas.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="sources/img/img_general/logo_sin_fondo.png">
     <title> Inicio | Cetis 104 </title>
 </head>
 <body>
@@ -58,23 +57,23 @@
 
         <div class="grid-container-secciones">
             <div class="tarjeta-seccion">
-                <div class="capa-azul"></div>
-                <img src="sources/img/img_index/cetis 104 - img2.jpg" alt="Imagen 1 bloques" class="imagen-tarjeta">
+                <div class="capa-color_vino"></div>
+                <img src="./sources/img/img_index/cetis 104 - img2.jpg" alt="Imagen 1 bloques" class="imagen-tarjeta">
                 <div class="texto-superpuesto">
                     <span> Historia del CEtis. 104 </span>
-                    <div class="pestana-azul">
-                        <a href="pages/historia.html" class="flecha-enlace">
+                    <div class="pestana-color_vino">
+                        <a href="./pages/historia.html" class="flecha-enlace">
                             <div class="flecha"></div>
                         </a>
                     </div>
                 </div>
             </div>
             <div class="tarjeta-seccion">
-                <div class="capa-azul"></div>
-                <img src="sources/img/img_index/cetis 104 - img3.jpg" alt="Imagen 2 bloques" class="imagen-tarjeta">
+                <div class="capa-color_vino"></div>
+                <img src="./sources/img/img_index/cetis 104 - img3.jpg" alt="Imagen 2 bloques" class="imagen-tarjeta">
                 <div class="texto-superpuesto">
                     <span>Profesores</span>
-                    <div class="pestana-azul">
+                    <div class="pestana-color_vino">
                         <a href="https://example.com/profesores" class="flecha-enlace">
                             <div class="flecha"></div>
                         </a>
@@ -82,19 +81,79 @@
                 </div>
             </div>
             <div class="tarjeta-seccion">
-                <div class="capa-azul"></div>
-                <img src="sources/img/img_index/cetis 104.jpg" alt="Imagen 3 bloques" class="imagen-tarjeta">
+                <div class="capa-color_vino"></div>
+                <img src="./sources/img/img_index/cetis 104.jpg" alt="Imagen 3 bloques" class="imagen-tarjeta">
                 <div class="texto-superpuesto">
                     <span> Plantel </span>
-                    <div class="pestana-azul">
-                        <a href="https://example.com/ruta-azul" class="flecha-enlace">
+                    <div class="pestana-color_vino">
+                        <a href="https://example.com/ruta-color_vino" class="flecha-enlace">
                             <div class="flecha"></div>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-    
+
+        <div class="news-container-custom">
+            <h1>Noticias</h1>
+            <div class="news-grid-custom">
+                <div class="news-item-custom" onclick="toggleNews(this)" data-url="../pages Eventos/Prototipos-2024.html">
+                    <div class="short-desc-custom">
+                        <p class="titulo-card-news"> Concurso de Prototipos Estatal 2024 </p>
+                        <p> Es una competencia que desafía a los estudiantes a crear innovadores prototipos tecnológicos. </p>
+                    </div>
+                    <div class="full-news-custom">
+                        <img src="./sources/icons/8_122645.svg" alt="Noticia 1" class="news-image">
+                    </div>
+                    <style>
+                        .news-image{
+                            width: 150px;
+                        }
+                    </style>
+                    <!-- Botón Learn More -->
+                    <button class="learn-more" data-url="/pages/Eventos-noticias.html">
+                        <span aria-hidden="true" class="circle">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"> Ver más </span>
+                    </button>
+                </div>
+        
+                <div class="news-item-custom" onclick="toggleNews(this)" data-url="../pages Eventos/Charla__Literaria.html">
+                    <div class="short-desc-custom">
+                        <p class="titulo-card-news"> Charla Literaria CETIS 104 </p>
+                        <p> Busca fomentar el amor por la lectura entre los estudiantes. A través de diálogos interactivos y recomendaciones de libros</p>
+                    </div>
+                    <div class="full-news-custom">
+                        <img src="./sources/icons/ingenuity_wit_book_idea_light_bulb_learn_learning_icon_149691.png" alt="Noticia 2" class="news-image">
+                    </div>
+                    <!-- Botón Learn More -->
+                    <button class="learn-more">
+                        <span aria-hidden="true" class="circle">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"> Ver más </span>
+                    </button>
+                </div>
+        
+                <div class="news-item-custom" onclick="toggleNews(this)" data-url="../pages Eventos/Concurso Estatal.html">
+                    <div class="short-desc-custom">
+                        <p class="titulo-card-news"> CONCURSO ESTATAL DE ESCOLTAS 2023 </p>
+                        <p>Es una celebración del orgullo y la disciplina de los estudiantes mostrando su formación y respeto</p>
+                    </div>
+                    <div class="full-news-custom">
+                        <img src="./sources/img/img_eventos/PreviewE.jpeg" alt="Noticia 3" class="news-image">
+                    </div>
+                    <!-- Botón Learn More -->
+                    <button class="learn-more">
+                        <span aria-hidden="true" class="circle">
+                        <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text"> Ver más </span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- footer agregado con js NT.Para modificar el header solo modificar el archivo "plantilla/footer.html" -->
@@ -104,9 +163,8 @@
     <div id="dino_cetis" class="dino_cetis" onfocus="closeSidebar()"></div>
 
     <!-- js -->
-    <script src="./js/js_general/agg-plantillas.js"></script>
-    <script src="./js/js_index/dot-lateral.js"></script>
+    <script src="./js/js_general/agg-plantillas-index.js"></script>
     <script src="./js/js_index/seccion1.js"></script>
-    <script src="./js/js_index/campus-section.js"></script>
+    <script src="./js/js_index/noticias_previas.js"></script>
 </body>
 </html>

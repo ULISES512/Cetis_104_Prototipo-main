@@ -168,7 +168,7 @@ body {
 
 /* Dar estilo al header */
 .header {
-  z-index: 2000;
+  transition: opacity 3s ease, transform 3s ease; /* Cambia a 3s */
   background-color: #9e1248;
   justify-content: space-between;
   padding: 0 10%;

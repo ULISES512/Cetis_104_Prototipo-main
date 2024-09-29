@@ -1,4 +1,4 @@
-fetch('./pages/header.html')
+fetch('./header.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('header').innerHTML = data;
@@ -12,7 +12,7 @@ fetch('./pages/header.html')
             });
 
 
-fetch('./pages/footer.html')
+fetch('./footer.html')
             .then(response => response.text())
             .then(data => {
                 document.getElementById('footer').innerHTML = data;
@@ -26,15 +26,5 @@ fetch('./pages/footer.html')
             });
 
 
-fetch('./pages/dino_redes.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('dino_cetis').innerHTML = data;
 
-                const scripts = document.getElementById('dino_cetis').getElementsByTagName('script');
-                for (let script of scripts) {
-                    const newScript = document.createElement('script');
-                    newScript.src = script.src;
-                    document.body.appendChild(newScript);
-                }
-            });
+          

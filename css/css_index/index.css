@@ -25,13 +25,13 @@
 }
 
 .slide1 {
-    background-image: url('/img/img_index/img1.jpg');
+    background-image: url('/sources/img/img_index/img1.jpg');
 }
 .slide2 {
-    background-image: url('/img/img_index/img2.jpg');
+    background-image: url('/sources/img/img_index/img2.jpg');
 }
 .slide3 {
-    background-image: url('/img/img_index/img3.jpg');
+    background-image: url('/sources/img/img_index/img3.jpg');
 }
 
 /* Cuando el slide está activo y se muestra */
@@ -156,14 +156,14 @@ h1 {
     object-fit: cover;
 }
 
-.capa-azul {
+.capa-color_vino {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(24, 92, 194, 0.4); /* Capa azul semitransparente */
-    z-index: 1; /* Capa azul sobre la imagen */
+    background-color: rgba(75, 0, 0, 0.35); /* Capa color vino semitransparente */
+    z-index: 1; /* Capa color vino sobre la imagen */
 }
 
 .texto-superpuesto {
@@ -171,42 +171,29 @@ h1 {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 139, 0.5); /* Fondo azul para el texto */
+    background-color: rgba(75, 0, 0, 0.5); /* Fondo color vino para el texto */
     color: white;
     text-align: center;
     font-size: 1.1em;
-    padding: 10px 0;
-    z-index: 2; /* El texto está encima de la capa azul */
+    padding: 15px 0;
+    z-index: 2; /* El texto está encima de la capa color vino */
 }
 
-.pestana-azul {
+.pestana-color_vino {
     position: absolute;
     bottom: -100%;
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #003366; /* Pestaña azul que aparece por debajo */
+    background-color: #4B0000; /* Pestaña color vino que aparece por debajo */
     display: flex;
     justify-content: center;
     align-items: center;
     transition: bottom 0.3s ease;
 }
 
-.tarjeta-seccion:hover .pestana-azul {
-    bottom: 0; /* Aparece la pestaña azul al pasar el cursor */
-}
-
-.pestana-azul {
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background-color: #003366; /* Pestaña azul */
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    transition: bottom 0.3s ease;
+.tarjeta-seccion:hover .pestana-color_vino {
+    bottom: 0; /* Aparece la pestaña color vino al pasar el cursor */
 }
 
 .flecha-enlace {
@@ -227,6 +214,7 @@ h1 {
     border-right: 10px solid transparent;
     border-top: 10px solid white; /* Flechita blanca */
 }
+
 
 /* Ajustar a telefono */
 @media screen and (max-width: 1130px) {
