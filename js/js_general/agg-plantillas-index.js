@@ -24,7 +24,6 @@ fetch('./pages/footer.html')
                     document.body.appendChild(newScript);
                 }
             });
-            
 
 
 fetch('./pages/dino_redes.html')
