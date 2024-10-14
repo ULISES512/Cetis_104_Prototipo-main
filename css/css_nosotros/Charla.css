@@ -57,7 +57,7 @@ body .notices{
 
 .info p {
     margin: 15px 0; 
-    font-size: 16px; 
+    font-size: 20px; 
     color: #333; 
 }
 
@@ -122,5 +122,8 @@ body .notices{
 
     .img-notice2 img {
         height: 300px; 
+    }
+    .info p{
+        font-size: 16px; 
     }
 }

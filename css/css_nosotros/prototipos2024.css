@@ -47,6 +47,7 @@ body .notices{
 }
  .info p{
     width: 100%;
+    font-size: 20px; 
     font-family: "Noto Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -113,5 +114,8 @@ body .notices{
 
     .img-notice2 img {
         height: 300px; 
+    }
+    .info p{
+        font-size: 16px; 
     }
 }

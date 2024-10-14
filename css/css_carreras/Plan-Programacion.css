@@ -1,0 +1,66 @@
+.title{
+    position: relative;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;    font-size: 35px;
+    justify-content: center;
+    display: flex;
+    background-color:#6B0011;
+    border: 20px solid white;
+    border-radius: 50px;
+}
+.horarios {
+    display: flex;
+    flex-direction: column;
+    align-items:self-start;
+    width: 100%;
+}
+
+/* Estilo general para cada contenedor */
+.horario-item {
+    width: 1000px;
+    height: 950px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.horario-item img {
+    width: 100%;
+    height: auto;
+}
+
+.horario-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+@media (max-width: 768px) {
+    .horarios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .horario-item {
+        width: 100%;
+        max-width: 600px; 
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .horario-item img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .horario-item p {
+        margin-top: 10px;
+        font-size: 1.2rem;
+    }
+    .title{
+        font-size: 13px;
+    }
+    
+}
