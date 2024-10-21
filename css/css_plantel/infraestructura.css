@@ -1,0 +1,177 @@
+:root{
+    --color-gral-sela:#5a0000;
+}
+.div-arq {
+    position: relative;       
+    margin-top: 100px;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+}
+.div-arq img{
+    width: 1200px;
+   height: 600px;
+   box-shadow: 15px 15px 15px 15px rgb(221, 221, 221);
+   transition: all 1s ease;
+}
+.div-arq #ARQ2{
+    display: none;
+    opacity: 0;
+    width: 1200px;
+   height: 600px;
+   box-shadow: 15px 15px 15px 15px rgb(221, 221, 221);
+   transition: all 1s ease;
+
+}
+.info-arq{
+    position: relative;
+    margin-top: 100px;
+    padding: 10px 50px;
+}
+
+.info-arq p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(64, 64, 64);
+    max-width: 80%;
+    padding: 0px 20px;
+    margin-top: 20px
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.green {
+    background-color: #4CAF50; 
+}
+
+.blue {
+    background-color: #00BFFF; 
+}
+
+.info-arq h1{
+    font-size: 30px;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #5a0000;
+}
+.PLS{
+    display: none
+}
+.points-sel{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+.points-sel-p1{
+    display: flex;
+    justify-content: center;
+}
+.points-sel-p1 button{
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    border-radius: 80px
+}
+.points-sel-p1 button::after{
+    content: "Ver Solo Aulas";
+}
+.points-sel-p1 button img{
+    width: 100%;
+    height: 100%;
+    border-radius: 80px
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+@media (max-width:768px){
+    .PLS{
+        position: relative;
+        margin-top: 100px;
+        justify-content: space-around;
+        display: flex;
+    }
+    .PLS img{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .info-arq{
+        position: relative;
+        margin-top: 100px;
+        padding: 10px 20px;
+    }
+    .info-arq h1{
+        font-size: 30px;
+        font-family: "Roboto Condensed", sans-serif;
+        color: #5a0000;
+    }
+    .info-arq p{
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(64, 64, 64);
+        max-width: 100%;
+        padding: 0px 20px;
+        margin-top: 20px
+
+    }
+    .div-arq {
+        position: relative;       
+        margin-top: 200px;
+        transform: rotate(90deg);
+        display: flex;
+        justify-content: center;
+    }
+    .div-arq img{
+        width: 450px;
+       height: 350px;
+
+    }
+    .legend {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .legend-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .circle {
+        width: 30px;
+        height: 30px;
+        border-radius: 80px;
+    }
+    
+    .green {
+        background-color: #4CAF50; 
+    }
+    
+    .blue {
+        background-color: #00BFFF; 
+    }
+    
+   
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width:1112px){
+   
+   
+}
