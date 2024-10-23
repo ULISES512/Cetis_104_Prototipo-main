@@ -1,41 +1,22 @@
-fetch('./pages/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header').innerHTML = data;
+function fetchAndInjectHTML(url, elementId) {
+    fetch(url)
+        .then(response => response.text())
+        .then(data => {
+            const element = document.getElementById(elementId);
+            element.innerHTML = data;
 
-                const scripts = document.getElementById('header').getElementsByTagName('script');
-                for (let script of scripts) {
-                    const newScript = document.createElement('script');
-                    newScript.src = script.src;
-                    document.body.appendChild(newScript);
-                }
-            });
+            const scripts = element.getElementsByTagName('script');
+            for (let script of scripts) {
+                const newScript = document.createElement('script');
+                newScript.src = script.src;
+                newScript.defer = true;  // Defer script execution
+                document.body.appendChild(newScript);
+            }
+        })
+        .catch(error => console.error(`Error loading ${url}:`, error));
+}
 
-
-fetch('./pages/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer').innerHTML = data;
-
-                const scripts = document.getElementById('footer').getElementsByTagName('script');
-                for (let script of scripts) {
-                    const newScript = document.createElement('script');
-                    newScript.src = script.src;
-                    document.body.appendChild(newScript);
-                }
-            });
-            
-
-
-fetch('./pages/dino_redes.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('dino_cetis').innerHTML = data;
-
-                const scripts = document.getElementById('dino_cetis').getElementsByTagName('script');
-                for (let script of scripts) {
-                    const newScript = document.createElement('script');
-                    newScript.src = script.src;
-                    document.body.appendChild(newScript);
-                }
-            });
+// Llamadas para cargar el contenido
+fetchAndInjectHTML('./pages/header.html', 'header');
+fetchAndInjectHTML('./pages/footer.html', 'footer');
+fetchAndInjectHTML('./pages/dino_redes.html', 'dino_cetis');
