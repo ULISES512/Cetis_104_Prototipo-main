@@ -1,32 +1,27 @@
-    modified:   Carreras Tecnicas/Inteligencia-artificia.html
-        deleted:    "Carreras Tecnicas/Pla-Mec\303\241nica-Industrial.html"
-        modified:   Carreras Tecnicas/Plan-Contabilidad.html
-        modified:   Carreras Tecnicas/Plan-Inteligencia-artificia.html
-        modified:   "Carreras Tecnicas/Plan-Laboratorista-Qu\303\255mico.html"
-        modified:   Carreras Tecnicas/Plan-Mecatronica.html
-        new file:   "Carreras Tecnicas/Plan-Mec\303\241nica-Industrial.html"
-        modified:   Carreras Tecnicas/Plan-Programacion.html
-        modified:   Carreras Tecnicas/Plan-Soporte-y-Mantenimiento.html
-        modified:   Carreras Tecnicas/Soporte-y-Mantenimiento.html
-        modified:   css/css_carreras/Plan-Programacion.css
-        modified:   index.html
-        modified:   js/js_plantel/oferta_educativa.js
-        new file:   sources/icons/1sp.png
-        new file:   sources/icons/2sp.png
-        modified:   sources/img/img-carreras/404-Page-Cover.png
-        new file:   sources/img/img-carreras/Horarios Contab/1RO.jpg
-        new file:   sources/img/img-carreras/Horarios Contab/3RO.jpg
-        new file:   sources/img/img-carreras/Horarios Contab/5TO.jpg
-        new file:   sources/img/img-carreras/Horarios I.a/1RO.jpg
-        new file:   sources/img/img-carreras/Horarios Lab Quim/1RO.jpg
-        new file:   sources/img/img-carreras/Horarios Lab Quim/3RO.jpg
-        new file:   sources/img/img-carreras/Horarios Lab Quim/5TO.jpg
-        new file:   sources/img/img-carreras/Horarios Meca.ind/1RO.jpg
-        new file:   sources/img/img-carreras/Horarios Meca.ind/3RO.jpg
-        new file:   sources/img/img-carreras/Horarios Meca.ind/5TO.jpg
-        new file:   sources/img/img-carreras/Horarios Soporte/3RO.jpg
-        new file:   sources/img/img-carreras/Horarios Soporte/5TO.jpg
-        new file:   sources/img/img-carreras/Horarios-MecaTronica/1RO.jpg
-        new file:   sources/img/img-carreras/Horarios-MecaTronica/3RO.jpg
-        new file:   sources/img/img-carreras/Horarios-MecaTronica/5TO.jpg
-        deleted:    sources/img/img-carreras/No existe.jpg
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   css/css_plantel/infraestructura.css
+        modified:   js/js_plantel/infra.js
+        modified:   pages/infraestructura.html
+        deleted:    sources/img/img-maps/laboratorioQuimico.jpg
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        sources/icons/campo.png
+        sources/icons/enfermeria.png
+        sources/icons/explanada.png
+        sources/icons/laboratorio Inlges.png
+        sources/icons/laboratorio Programacion.png
+        sources/icons/laboratorio conntabilidad.png
+        sources/icons/laboratorio.png
+        sources/icons/oficina depprtiva.png
+        sources/icons/sala audivisual.png
+        sources/icons/sala de maestros.png
+        sources/icons/sala de multimedia.png
+        sources/icons/simulacion.png
+        sources/img/img-maps/Area deportiva.png
+        sources/img/img-maps/Biblioteca.png
+        sources/img/img-maps/Explanada.png
+        sources/img/img-maps/laboratorioQuimico-fotor-2024102618836.png
+        sources/img/img-maps/laboratorioQuimico.png
